@@ -5,6 +5,10 @@
         box-sizing: border-box;
         font-family: sans-serif;
         padding-top: 80px;
+<<<<<<< HEAD
+=======
+        
+>>>>>>> aa7bbbf (third commit)
     }
      
 
@@ -78,3 +82,29 @@
       transform: scale(1.05);
     }
 
+<<<<<<< HEAD
+=======
+    .foto-perfil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  table{
+    max-width: 1000px;
+    width: 700px;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+  }
+  .textoPrinc{
+    margin-top: 100px;
+    max-width: 1000px;
+    text-align: center;
+    justify-self: center;
+    line-height: 25px;
+    font-family: 'Poppins';
+  }
+>>>>>>> aa7bbbf (third commit)
