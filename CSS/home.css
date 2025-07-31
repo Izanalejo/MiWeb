@@ -5,10 +5,7 @@
         box-sizing: border-box;
         font-family: sans-serif;
         padding-top: 80px;
-<<<<<<< HEAD
-=======
         
->>>>>>> aa7bbbf (third commit)
     }
      
 
@@ -82,8 +79,6 @@
       transform: scale(1.05);
     }
 
-<<<<<<< HEAD
-=======
     .foto-perfil {
     width: 150px;
     height: 150px;
@@ -105,6 +100,4 @@
     text-align: center;
     justify-self: center;
     line-height: 25px;
-    font-family: 'Poppins';
   }
->>>>>>> aa7bbbf (third commit)
