@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
     body{
         margin: 0;
@@ -103,11 +104,15 @@
   }
 
 html,body{
+=======
+html, body {
+>>>>>>> 978fd84 (Sobre mi y mejora de diseño de home)
   height: 100%;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   background: linear-gradient(to bottom, #0080cab3, #f1f1f1);
+<<<<<<< HEAD
 }
 
 .container{
@@ -115,6 +120,25 @@ html,body{
   flex-direction: column;
   min-height: 100%;
 }
+=======
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra verticalmente el contenido */
+  align-items: center;  box-sizing: border-box;
+}
+
+>>>>>>> 978fd84 (Sobre mi y mejora de diseño de home)
 .navbar {
   position: fixed;
   top: 20px;
@@ -130,7 +154,11 @@ html,body{
   justify-content: space-between;
   align-items: center;
   padding: 10px 30px;
+<<<<<<< HEAD
  
+=======
+  z-index: 1000;
+>>>>>>> 978fd84 (Sobre mi y mejora de diseño de home)
 }
 
 .logo {
@@ -156,11 +184,18 @@ html,body{
 }
 
 .hero {
+<<<<<<< HEAD
   padding: 60px 20px;
   text-align: center;
   flex: 1;
   padding-top: 150px;
 }
+=======
+  text-align: center;
+  width: 100%;
+}
+
+>>>>>>> 978fd84 (Sobre mi y mejora de diseño de home)
 .hero-content {
   display: flex;
   flex-direction: row;
@@ -234,6 +269,7 @@ html,body{
   padding: 2px;
 }
 
+<<<<<<< HEAD
 .intro-descripcion {
   max-width: 1500px;
   text-align: center;
@@ -257,3 +293,23 @@ footer {
   justify-self: center;
   align-items: center;
 }
+=======
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #b1b1b1;
+  width: 100%;
+  flex-shrink: 0;
+}
+.main-title {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 0 0 40px 0;
+  color: #003366;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+>>>>>>> 978fd84 (Sobre mi y mejora de diseño de home)

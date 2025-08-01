@@ -3,13 +3,24 @@ html,body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+<<<<<<< HEAD
+=======
+  flex-direction: column;
+  display: flex;
+>>>>>>> 978fd84 (Sobre mi y mejora de diseño de home)
   background: linear-gradient(to bottom, #0080cab3, #f1f1f1);
 }
 
 .container{
   display: flex;
+<<<<<<< HEAD
   flex-direction: column;
   min-height: 100%;
+=======
+  flex: 1;
+  flex-direction: column;
+  min-height: 10%;
+>>>>>>> 978fd84 (Sobre mi y mejora de diseño de home)
 }
 .navbar {
   position: fixed;
@@ -43,4 +54,38 @@ html,body{
 
 .nav-links a:hover {
   color: #007BFF;
+<<<<<<< HEAD
+=======
+}
+.titulo{
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  margin: 0 0 40px 0;
+  color: #003366;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  margin-top: 60px;
+  margin-left: 50px;
+}
+.intro-descripcion {
+  max-width: 1500px;
+  margin: 60px auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  background-color: #ffffffcc;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #b1b1b1;
+  width: 100%;
+  flex-shrink: 0;
+>>>>>>> 978fd84 (Sobre mi y mejora de diseño de home)
 }
