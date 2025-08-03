@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-
-    body{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: sans-serif;
-        padding-top: 80px;
-        
-    }
-     
 
     .navbar {
       position: fixed;
@@ -103,16 +92,12 @@
     line-height: 25px;
   }
 
-html,body{
-=======
 html, body {
->>>>>>> 978fd84 (Sobre mi y mejora de diseño de home)
   height: 100%;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   background: linear-gradient(to bottom, #0080cab3, #f1f1f1);
-<<<<<<< HEAD
 }
 
 .container{
@@ -120,15 +105,7 @@ html, body {
   flex-direction: column;
   min-height: 100%;
 }
-=======
-  display: flex;
-  flex-direction: column;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-}
+  
 
 .container {
   flex: 1;
@@ -138,7 +115,16 @@ body {
   align-items: center;  box-sizing: border-box;
 }
 
->>>>>>> 978fd84 (Sobre mi y mejora de diseño de home)
+
+
+.container {
+  flex: 1;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  box-sizing: border-box;
+}
 .navbar {
   position: fixed;
   top: 20px;
@@ -154,11 +140,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 30px;
-<<<<<<< HEAD
- 
-=======
   z-index: 1000;
->>>>>>> 978fd84 (Sobre mi y mejora de diseño de home)
 }
 
 .logo {
@@ -184,18 +166,12 @@ body {
 }
 
 .hero {
-<<<<<<< HEAD
   padding: 60px 20px;
   text-align: center;
   flex: 1;
   padding-top: 150px;
 }
-=======
-  text-align: center;
-  width: 100%;
-}
 
->>>>>>> 978fd84 (Sobre mi y mejora de diseño de home)
 .hero-content {
   display: flex;
   flex-direction: row;
@@ -269,7 +245,6 @@ body {
   padding: 2px;
 }
 
-<<<<<<< HEAD
 .intro-descripcion {
   max-width: 1500px;
   text-align: center;
@@ -281,19 +256,17 @@ body {
   justify-content: center;
   align-items: center;
 }
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #f0f0f0;
-      
-}
+
+
+
+
 .container2{
   justify-content: center;
   justify-items: center;
   justify-self: center;
   align-items: center;
 }
-=======
+
 footer {
   text-align: center;
   padding: 20px;
@@ -311,5 +284,3 @@ footer {
   letter-spacing: 2px;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.1);
 }
-
->>>>>>> 978fd84 (Sobre mi y mejora de diseño de home)
